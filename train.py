@@ -15,7 +15,7 @@ def train():
 )
 
     history = model.fit(train_dataset, 
-                                epochs = 1, 
+                                epochs = 100, 
                                 validation_data = val_dataset,
                                 callbacks=[callback])
 
